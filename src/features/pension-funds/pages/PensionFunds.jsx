@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../../../shared/components/Navbar";
 import "../styles/pension-funds.css"; 
 import { Download } from "lucide-react";
-import pensionfunds from "../../../assets/images/pension.png"; 
+import pensionfunds from "../../../assets/images/Pension.png"; 
 import { getPensionFunds } from '../api/pension-funds.api';
 
 export default function PensionFunds() {
